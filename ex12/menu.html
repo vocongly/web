@@ -6,12 +6,16 @@
     <style>
         body {
             font-family: Verdana, sans-serif;
-            font-size: 100%;
+            font-size: small;
+            line-height:1.75em;
         }
         p,dl{
            font-size:.85em;
         }
-        #info p{font-style: italic;}
+        #info p{font-style: italic;
+                color :gray;
+        }
+        h1,h2,#info{text-align : center;}
         dt{
             font-weight: bold;
         }
@@ -21,9 +25,22 @@
             font-family: "Marko One", Georgia, serif;
             font-size:1.5em;
             font: bold 1.5em "Marko One", Georgia, serif;
+            color:purple;
+            text-shadow: .1em .1em .2em lightslategray;
         }
         h2{
             font-size:1em;
+            text-transform : uppercase;
+            letter-spacing: .5em;
+            color:purple;
+        }
+        h2 + p{
+            text-align:center;
+            font-style:italic;
+        }
+        dt{
+            font-weight:bold;
+            color:sienna;
         }
         .price{
             font-family: Georgia,serif;
